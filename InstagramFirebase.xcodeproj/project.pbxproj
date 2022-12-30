@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E72EBD7295F2D54006EA227 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72EBD6295F2D54006EA227 /* MainTabbarController.swift */; };
+		2E72EBD9295F2E22006EA227 /* userProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E72EBD8295F2E22006EA227 /* userProfileController.swift */; };
 		2ED0E3792958F24600BDC7D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0E3782958F24600BDC7D0 /* AppDelegate.swift */; };
 		2ED0E37B2958F24600BDC7D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0E37A2958F24600BDC7D0 /* SceneDelegate.swift */; };
 		2ED0E37D2958F24600BDC7D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0E37C2958F24600BDC7D0 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1DE2260C2AD6C43426EB1A26 /* Pods_InstagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E72EBD6295F2D54006EA227 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		2E72EBD8295F2E22006EA227 /* userProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileController.swift; sourceTree = "<group>"; };
 		2ED0E3752958F24600BDC7D0 /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED0E3782958F24600BDC7D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED0E37A2958F24600BDC7D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 			children = (
 				2ED0E3902958FA0700BDC7D0 /* Util */,
 				2ED0E3782958F24600BDC7D0 /* AppDelegate.swift */,
+				2E72EBD6295F2D54006EA227 /* MainTabbarController.swift */,
+				2E72EBD8295F2E22006EA227 /* userProfileController.swift */,
 				2ED0E37A2958F24600BDC7D0 /* SceneDelegate.swift */,
 				2ED0E37C2958F24600BDC7D0 /* ViewController.swift */,
 				2ED0E37E2958F24600BDC7D0 /* Main.storyboard */,
@@ -223,6 +229,8 @@
 			files = (
 				2ED0E37D2958F24600BDC7D0 /* ViewController.swift in Sources */,
 				2ED0E3792958F24600BDC7D0 /* AppDelegate.swift in Sources */,
+				2E72EBD9295F2E22006EA227 /* userProfileController.swift in Sources */,
+				2E72EBD7295F2D54006EA227 /* MainTabbarController.swift in Sources */,
 				2ED0E37B2958F24600BDC7D0 /* SceneDelegate.swift in Sources */,
 				2ED0E3922958FA1B00BDC7D0 /* UIExtensions.swift in Sources */,
 			);

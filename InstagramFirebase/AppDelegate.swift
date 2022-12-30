@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        UINavigationBar.appearance().backgroundColor = .systemGray6
+        UINavigationBar.appearance().isOpaque = true
+        UINavigationBar.appearance().scrollEdgeAppearance = UINavigationBarAppearance()
+        
+        
         return true
     }
 
