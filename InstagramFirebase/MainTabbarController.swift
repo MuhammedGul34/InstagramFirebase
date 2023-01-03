@@ -13,7 +13,7 @@ class MainTabbarController: UITabBarController {
         view.backgroundColor = .blue
         
         let layout = UICollectionViewLayout()
-        let userProfileController = userProfileController(collectionViewLayout: layout)
+        let userProfileController = UserProfileController(collectionViewLayout: layout)
         
         let navController = UINavigationController(rootViewController: userProfileController)
         navController.tabBarItem.image = UIImage(named: "profile_unselected")
